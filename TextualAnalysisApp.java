@@ -38,11 +38,11 @@ public class wordDoc {
 
         averageLetters = letters/sentences;
         averageWords = words/sentences;
-        System.out.println(words);
-        System.out.println( letters);
-        System.out.println(sentences);
-        System.out.println(averageLetters);
-        System.out.println(averageWords);
+        System.out.println("There are " + words + " words" );
+        System.out.println( "There are " + letters + " letters");
+        System.out.println("There are " + sentences + " sentences");
+        System.out.println("There are " + averageLetters + " letters per sentences");
+        System.out.println("There are " + averageWords + " words per sentences");
         datainput.close();
     }
 }
